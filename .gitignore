@@ -15,6 +15,11 @@ discovery_engine/data/store_all.json
 /TODO.md
 /problemStatement*
 /deck/
-/03_user_research/*
-!/03_user_research/synthetic_interviews/
-/06_simulated_tests/results.json
+/03_user_research/
+/06_simulated_tests/
+
+# interview-analysis agent: kept locally, not in the repo
+discovery_engine/interviews_app.py
+discovery_engine/analyze_interviews.py
+discovery_engine/analyze/interviews.py
+discovery_engine/data/interviews_analysis.*

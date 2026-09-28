@@ -1,5 +1,5 @@
 """
-One app for both artefacts: the Moment Finder MVP and the AI discovery engine.
+One app for both artefacts: the AI discovery engine and the Moment Finder MVP.
 Switch between them in the top bar. Each still runs on its own (streamlit run mvp/app.py).
 
 Run:  streamlit run streamlit_app.py      (Streamlit >= 1.46)
@@ -14,15 +14,13 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 for d in ("mvp", "discovery_engine"):
     sys.path.insert(0, os.path.join(ROOT, d))
 
-st.set_page_config(page_title="Google Photos retrieval: Moment Finder + discovery engine",
-                   page_icon="📷", layout="wide")
+st.set_page_config(page_title="Google Photos retrieval: discovery engine + Moment Finder",
+                   page_icon="🔎", layout="wide")
 
 nav = st.navigation([
-    st.Page(os.path.join(ROOT, "mvp", "app.py"), title="Moment Finder (MVP)", icon="📷",
-            url_path="moment-finder", default=True),
     st.Page(os.path.join(ROOT, "discovery_engine", "app.py"), title="AI discovery engine", icon="🔎",
-            url_path="discovery-engine"),
-    st.Page(os.path.join(ROOT, "discovery_engine", "interviews_app.py"), title="Interview-analysis agent",
-            icon="🗣️", url_path="interview-agent"),
+            url_path="discovery-engine", default=True),
+    st.Page(os.path.join(ROOT, "mvp", "app.py"), title="Moment Finder (MVP)", icon="📷",
+            url_path="moment-finder"),
 ], position="top")
 nav.run()

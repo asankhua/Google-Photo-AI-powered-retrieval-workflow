@@ -24,7 +24,7 @@ indexes literal ones.
 | How do users formulate searches with incomplete memory? | `query_strategies`, `query_text` | `query_strategies_top`, `query_examples` |
 
 > Data caveat: generic app-store reviews yield sparse retrieval narratives (~3%), so the
-> engine also reads public forums (below) and interview transcripts (interview agent).
+> engine also reads public forums (below).
 
 ### Ask the engine (first tab): any discovery question, answered from the whole corpus
 Type a question ("What have users forgotten about the photo?", "What do parents say about finding
@@ -61,18 +61,7 @@ python run_pipeline.py --play 0 --appstore 0 --hn --stackexchange --community --
 Forum posts are kept only if a find/search verb sits next to "photo" and a photo app is
 named, then ranked by relevance (not upvotes) and capped per source to fit the Groq budget.
 Latest run: **1,744 posts → 366 about finding a photo → 36 classified → 12 retrieval-related**
-(`data/public_*.json`). Write-up: `../03_user_research/public_sources_and_interview_agent.md`.
-
-### Interview-analysis agent
-```bash
-python analyze_interviews.py                    # the AI-simulated P1-P6 + T1-T3 transcripts
-python analyze_interviews.py notes/*.md --real  # real session notes
-python analyze_interviews.py --reuse            # re-answer after new public data (no re-coding)
-```
-Codes each transcript with the same taxonomy (plus trigger, first query, workaround,
-outcome), drops quotes that aren't in the participant's own words, counts in code, compares
-with the public datasets, and answers Q1–Q5 citing only checked quotes. Output:
-`data/interviews_analysis.md` / `.json`; also a page in the combined app.
+(`data/public_*.json`).
 
 ### Segment check: parents
 ```bash
@@ -95,8 +84,7 @@ stackexchange.py   ─┼─►  classifier.py  ──► JSON ─► app.py (St
 gphotos_community  ─┤    (taxonomy.py)
 youtube.py         ─┤
 reddit.py          ─┘
-interview transcripts ─► analyze/interviews.py (code → check quotes → count →
-                         compare with the JSON above → answer) ─► interviews_app.py
+corpus.json ─► ask/engine.py (plan → BM25 search → answer with cited posts) ─► app.py "Ask the engine"
 ```
 
 ## Setup
