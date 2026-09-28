@@ -1,0 +1,152 @@
+{
+  "total_items": 120,
+  "retrieval_related": 5,
+  "retrieval_share_pct": 4.2,
+  "photo_types_top": [
+    [
+      "unknown",
+      3
+    ],
+    [
+      "person_or_group",
+      1
+    ],
+    [
+      "scenery_or_place",
+      1
+    ]
+  ],
+  "remembered_cues_top": [
+    [
+      "people_present",
+      3
+    ],
+    [
+      "emotion_feeling",
+      1
+    ],
+    [
+      "place",
+      1
+    ]
+  ],
+  "forgotten_cues_top": [
+    [
+      "time_absolute",
+      2
+    ],
+    [
+      "time_relative",
+      2
+    ],
+    [
+      "place",
+      2
+    ],
+    [
+      "event_occasion",
+      2
+    ],
+    [
+      "activity",
+      2
+    ],
+    [
+      "visual_content",
+      2
+    ],
+    [
+      "text_in_image",
+      1
+    ],
+    [
+      "adjacent_context",
+      1
+    ],
+    [
+      "people_present",
+      1
+    ]
+  ],
+  "query_strategies_top": [
+    [
+      "keyword",
+      2
+    ],
+    [
+      "person_or_face",
+      2
+    ],
+    [
+      "gave_up",
+      1
+    ],
+    [
+      "unknown",
+      1
+    ]
+  ],
+  "query_examples": [
+    "search more friends photos"
+  ],
+  "opportunities_ranked": [
+    {
+      "failure_mode": "UNDERSTANDING",
+      "count": 3,
+      "share_pct": 60.0,
+      "avg_severity": 3.33,
+      "opportunity_score": 10.0,
+      "top_photo_types": [
+        [
+          "person_or_group",
+          1
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "scenery_or_place",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "It hardly finds anyone you love or care about & seems more focussed on picking out blurred strangers",
+          "source": "play_store"
+        },
+        {
+          "quote": "faces to my photos have disappeared again",
+          "source": "play_store"
+        },
+        {
+          "quote": "I put an address in the search field and nothing useless.",
+          "source": "play_store"
+        }
+      ]
+    },
+    {
+      "failure_mode": "EXPRESSION",
+      "count": 2,
+      "share_pct": 40.0,
+      "avg_severity": 2.0,
+      "opportunity_score": 4.0,
+      "top_photo_types": [
+        [
+          "unknown",
+          2
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "search more friends photos",
+          "source": "play_store"
+        },
+        {
+          "quote": "I can\u2019t always find the videos I\u2019m looking for",
+          "source": "app_store"
+        }
+      ]
+    }
+  ]
+}

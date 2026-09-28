@@ -1,0 +1,114 @@
+{
+ "reviews_checked": 14540,
+ "negative": 12,
+ "positive": 3,
+ "negative_examples": [
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-09-24 22:26:08",
+   "rating": 1,
+   "text": "the Gemini bot is absolutely useless just a completely worthless terrible thing"
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-09-21 23:53:29",
+   "rating": 4,
+   "text": "The Useless Ask Edit Feature Y'all need to get rid of the useless AI Ask Edit Feature because it is not removing things in my photos for me. Please get Gemini out of your app it's absolutely useless and it doesn't help me at all. Please bring back the original editing erasing tool."
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-09-18 05:46:04",
+   "rating": 1,
+   "text": "sharing photos to Gemini or Signal or other app doesn't work - literally nothing happens. Search is useless - it doesn't come up with anything on first attempt, sometimes never"
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-09-11 19:30:02",
+   "rating": 1,
+   "text": "The only reason I was using Photos is because of the image search. Now if I don't continue with Gemini I don't get to have a decade old feature? The search results are worse than how it was on my OG Pixel!"
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-07-13 15:28:19",
+   "rating": 1,
+   "text": "Turning off Gemini in photos now produces a persistent mag to turn gemini on as an \"ask photos\" placeholder icon... Turning on gemini and disabling all photos coats it. Google had no consideration for your privacy. They changed the layout again for the worse. Now you get a silly mosaic where some photos are larger than others. Any reasoning? No, just Google thinking is cute. It isn't."
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-07-27 17:20:30",
+   "rating": 1,
+   "text": "Absolutely hate the new design/layout! With Gemini being added to the photos app search has gotten worse. update: They really need to stop making changes. it just keeps getting worse."
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-08-09 01:45:45",
+   "rating": 2,
+   "text": "love that It backs up automatically and the search was fantastic. something with the new search in the past week or two has rendered it useless. can't find anything.:/"
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-04-23 05:55:00",
+   "rating": 2,
+   "text": "the new search feature totally took this app down hill , the AI feature is worse than the basic desire for searching if how it used to be. basic search's no longer work I have a pixel 9 pro , I also don't know why this app constantly is crashing on my phone when I try and open it."
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-05-08 02:41:37",
+   "rating": 1,
+   "text": "biggest downhill spiral of any app ive ever used. coming updates will allow gemini to consume all your personal photos - which is a non secure technology. this app has steadily gotten worse over the past 5 years- way past time to ditch and take my 100eur per month Drive subscription elsewhere."
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-06-06 13:46:32",
+   "rating": 1,
+   "text": "removing the classic search feature and including gemini has made image search much worse. It takes much longer to search through images (and the request is sent off-device, i believe old search was on-device)"
+  },
+  {
+   "source": "play_store",
+   "country": "us",
+   "date": "2025-12-18 03:43:19",
+   "rating": 4,
+   "text": "Update for Gemini, which is not ready for prime time. I needed an older photo for work. it took four different searches to get what I wanted because Gemini failed to locate the photo. The old search still works great! Works great now. Love the photo sharing with me wife. No need to send each other pictures of our kids - they are already there! I do wish the video editor and collage maker had more options."
+  },
+  {
+   "source": "play_store",
+   "country": "us",
+   "date": "2026-04-08 18:55:03",
+   "rating": 1,
+   "text": "The search is terrible now, I have pictures of monkeys from a trip. If I search any variation of that word it refuses to search. So sad. I want the old search back"
+  }
+ ],
+ "positive_examples": [
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-09-19 17:53:37",
+   "rating": 5,
+   "text": "I find the structured layout, editing tools, and Ask photos helpful. I also am liking the photo & video remix features."
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-09-15 23:26:47",
+   "rating": 1,
+   "text": "Google is the best! They have kept all of my pictures for 10 + years. Gemini is also great. without details, I have saved important papers, and taught some important information so I don't erase it. great patient accurate \ud83d\udc4d\ud83d\ude00"
+  },
+  {
+   "source": "play_store",
+   "country": "gb",
+   "date": "2026-06-28 09:06:01",
+   "rating": 5,
+   "text": "Google brought back the perspective tool for cropping images so I'm bringing my review back up to 5 stars. Magic eraser tool works surprisingly well. Editing an image using prompts to Gemini has been really helpful in some cases, but it also horribly misses the mark other times. Looking forward to that functionality improving over time."
+  }
+ ]
+}

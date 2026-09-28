@@ -1,0 +1,178 @@
+{
+  "total_items": 166,
+  "retrieval_related": 7,
+  "retrieval_share_pct": 4.2,
+  "photo_types_top": [
+    [
+      "person_or_group",
+      6
+    ],
+    [
+      "pet_or_animal",
+      1
+    ]
+  ],
+  "remembered_cues_top": [
+    [
+      "people_present",
+      6
+    ],
+    [
+      "visual_content",
+      2
+    ],
+    [
+      "time_relative",
+      2
+    ],
+    [
+      "activity",
+      1
+    ],
+    [
+      "place",
+      1
+    ]
+  ],
+  "forgotten_cues_top": [
+    [
+      "place",
+      5
+    ],
+    [
+      "time_absolute",
+      3
+    ],
+    [
+      "visual_content",
+      3
+    ],
+    [
+      "text_in_image",
+      3
+    ],
+    [
+      "time_relative",
+      2
+    ],
+    [
+      "keyword",
+      2
+    ],
+    [
+      "date",
+      1
+    ],
+    [
+      "event_occasion",
+      1
+    ],
+    [
+      "activity",
+      1
+    ],
+    [
+      "adjacent_context",
+      1
+    ]
+  ],
+  "query_strategies_top": [
+    [
+      "natural_language",
+      4
+    ],
+    [
+      "keyword",
+      2
+    ],
+    [
+      "person_or_face",
+      2
+    ],
+    [
+      "gave_up",
+      1
+    ],
+    [
+      "unknown",
+      1
+    ]
+  ],
+  "query_examples": [
+    "truck"
+  ],
+  "opportunities_ranked": [
+    {
+      "failure_mode": "UNDERSTANDING",
+      "count": 3,
+      "share_pct": 42.9,
+      "avg_severity": 3.67,
+      "opportunity_score": 11.0,
+      "top_photo_types": [
+        [
+          "person_or_group",
+          3
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "the app is not recognising kids accurately... still matches the faces incorrectly",
+          "source": "play_store"
+        },
+        {
+          "quote": "faces and people no longer works even though facial recognition is active ... I can't search for pictures of people",
+          "source": "play_store"
+        },
+        {
+          "quote": "it took four different searches to get what I wanted because Gemini failed to locate the photo",
+          "source": "play_store"
+        }
+      ]
+    },
+    {
+      "failure_mode": "EXPRESSION",
+      "count": 2,
+      "share_pct": 28.6,
+      "avg_severity": 3.5,
+      "opportunity_score": 7.0,
+      "top_photo_types": [
+        [
+          "person_or_group",
+          2
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "nv. OK Google article the photo photo baby can COVID",
+          "source": "play_store"
+        },
+        {
+          "quote": "I remember that I was standing there and hold a matchbox ... sadly I lost the photo",
+          "source": "play_store"
+        }
+      ]
+    },
+    {
+      "failure_mode": "EVALUATION",
+      "count": 1,
+      "share_pct": 14.3,
+      "avg_severity": 4.0,
+      "opportunity_score": 4.0,
+      "top_photo_types": [
+        [
+          "pet_or_animal",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "Google photos cannot differentiate between my dog and my mother's dog.",
+          "source": "play_store"
+        }
+      ]
+    }
+  ],
+  "collected_items": 14539,
+  "segment": "parents",
+  "segment_items": 166
+}

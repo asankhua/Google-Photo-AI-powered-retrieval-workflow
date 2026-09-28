@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+# raw store reviews (22 MB); the app only needs data/corpus.json
+data/store_all.json

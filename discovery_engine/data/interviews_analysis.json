@@ -1,0 +1,1227 @@
+{
+  "codes": [
+    {
+      "participant": "P1",
+      "target_moment": "Anaya holding red kite in Cubbon Park early March 2019",
+      "photo_type": "person_or_group",
+      "trigger": "school collage request",
+      "deadline": "by Friday",
+      "remembered": [
+        {
+          "cue": "time_absolute",
+          "detail": "early March 2019",
+          "quote": "I just remembered it was that park day in early\u202f2019 \u2013 we were at Cubbon\u202fPark and Anaya grabbed a red kite"
+        },
+        {
+          "cue": "place",
+          "detail": "Cubbon Park",
+          "quote": "we were at Cubbon\u202fPark"
+        },
+        {
+          "cue": "visual_content",
+          "detail": "bright red kite",
+          "quote": null
+        },
+        {
+          "cue": "people_present",
+          "detail": "Anaya",
+          "quote": "Anaya\u2019s tiny hand holding the string"
+        }
+      ],
+      "forgotten": [
+        {
+          "cue": "time_absolute",
+          "detail": "exact day",
+          "quote": "I had no clue which day it was \u2013 I just knew it was sometime in the first half of the year"
+        },
+        {
+          "cue": "time_relative",
+          "detail": "month confidence",
+          "quote": "I thought it was \u201cearly\u202f2019\u201d and guessed March, but I wasn\u2019t confident; it could have been February or April"
+        }
+      ],
+      "anchors": [
+        "second birthday a week later",
+        "birthday party album dated early March 2019",
+        "just returned from a weekend trip to Mysore"
+      ],
+      "first_query": "Anaya park 2019",
+      "later_queries": [
+        "red kite",
+        "Cubbon Park"
+      ],
+      "query_strategies": [
+        "keyword",
+        "date_or_timeline",
+        "person_or_face",
+        "keyword",
+        "place_or_map"
+      ],
+      "formulation": "Combined her name, location and year into a keyword search, then refined by date range and location filter.",
+      "failure_mode": "EVALUATION",
+      "failure_detail": "The app showed many park photos but none of the kite, and \u2018red kite\u2019 returned no results.",
+      "workaround": "Used the location filter \u2018Cubbon Park\u2019 to narrow results and found the photo.",
+      "outcome": "found",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": false,
+      "searches_last_month": 4,
+      "first_search_found": 1,
+      "feeling": "annoyed",
+      "product_feedback": "Wished for a quick \u2018red kite\u2019 filter and automatic syncing of partner\u2019s library.",
+      "key_quotes": [
+        "I typed \u201cAnaya\u202fpark\u202f2019\u201d because the only concrete bits I could pull together were her name, the park we went to and the year I was pretty sure of.",
+        "When the \u201cAnaya\u202fpark\u202f2019\u201d search just gave me a bunch of generic swing\u2011and\u2011slide shots, I thought the AI wasn\u2019t picking up the kite because it wasn\u2019t in the metadata.",
+        "I tapped the Location filter, typed \u201cCubbon\u202fPark\u201d, and hit Apply. That narrowed the set to about 12 pictures, and finally one of them showed the red kite stuck in the low tree with Anaya\u2019s hand on the string."
+      ],
+      "id": "P1",
+      "simulated": true,
+      "quotes_dropped": 1,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "Anaya park 2019",
+        "red kite",
+        "Cubbon Park"
+      ]
+    },
+    {
+      "participant": "P2",
+      "target_moment": "Kabir one\u2011year\u2011old cake\u2011smash birthday",
+      "photo_type": "person_or_group",
+      "trigger": "Mom asked for a collage photo by Friday",
+      "deadline": "Friday",
+      "remembered": [
+        {
+          "cue": "time_absolute",
+          "detail": "15 Feb 2022",
+          "quote": "the date stamp says 15\u202fFeb\u202f2022"
+        },
+        {
+          "cue": "event_occasion",
+          "detail": "first\u2011birthday cake smash",
+          "quote": "Kabir\u2019s one\u2011year\u2011old \u201ccake\u2011smash\u201d birthday \u2013 the photo where he\u2019s got frosting all over his face"
+        },
+        {
+          "cue": "visual_content",
+          "detail": "frosting on cheek, pink dinosaur\u2011shaped cake",
+          "quote": "he was about one, covered in pink frosting, and we had that tiny dinosaur\u2011shaped cake on the kitchen table"
+        },
+        {
+          "cue": "emotion_feeling",
+          "detail": "annoyed by wrong faces",
+          "quote": "Seeing the same wrong faces pop up over and over made me think the app was broken"
+        }
+      ],
+      "forgotten": [
+        {
+          "cue": "place",
+          "detail": "home vs sister\u2019s house",
+          "quote": "I think it was ours, but I\u2019m not 100\u202f% on that"
+        }
+      ],
+      "anchors": [
+        "back\u2011tracked from Kabir\u2019s birthday",
+        "family chat message dated 15\u202fFeb"
+      ],
+      "first_query": "Kabir cake 2022",
+      "later_queries": [
+        "People filter then date range Jan\u2011Mar 2022",
+        "cake smash"
+      ],
+      "query_strategies": [
+        "keyword",
+        "date_or_timeline",
+        "keyword"
+      ],
+      "formulation": "Used the keyword \u201ccake\u201d with the year, then narrowed by date and manually selected Kabir\u2019s face to isolate the shot.",
+      "failure_mode": "REFINEMENT",
+      "failure_detail": "Face tags were wrong and the app kept labeling the correct photo as \u201cunknown\u201d, preventing easy selection.",
+      "workaround": "Manually used the People filter to pick Kabir\u2019s face and applied a tighter date range, then chose the closest matching image.",
+      "outcome": "found",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": true,
+      "searches_last_month": 4,
+      "first_search_found": 1,
+      "feeling": "annoyed",
+      "product_feedback": "Liked date filtering but disliked inaccurate face tagging and lack of reliable text search.",
+      "key_quotes": [
+        "I\u2019m about to try the \u201cPeople\u201d filter and pick Kabir\u2019s face manually, but the app keeps swapping his face with my nephew\u2019s.",
+        "The app still shows the label \u201cunknown\u201d, which is annoying, but the face is clearly his, not my nephew\u2019s."
+      ],
+      "id": "P2",
+      "simulated": true,
+      "quotes_dropped": 1,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "Kabir cake 2022",
+        "cake smash"
+      ]
+    },
+    {
+      "participant": "P3",
+      "target_moment": "Isha playing with a red kite in the living\u2011room after Diwali 2019",
+      "photo_type": "person_or_group",
+      "trigger": null,
+      "deadline": "end of the week",
+      "remembered": [
+        {
+          "cue": "time_relative",
+          "detail": "Diwali 2019, November 2019",
+          "quote": null
+        },
+        {
+          "cue": "place",
+          "detail": "living\u2011room carpet, sofa, coffee table",
+          "quote": null
+        },
+        {
+          "cue": "visual_content",
+          "detail": "big red kite",
+          "quote": "the red kite was the standout object in the memory"
+        },
+        {
+          "cue": "people_present",
+          "detail": "Isha, about three\u2011and\u2011a\u2011half years old",
+          "quote": "Isha on the carpet, about three\u2011and\u2011a\u2011half years old, sitting cross\u2011legged"
+        },
+        {
+          "cue": "emotion_feeling",
+          "detail": "happy, proud",
+          "quote": null
+        }
+      ],
+      "forgotten": [
+        {
+          "cue": "time_absolute",
+          "detail": "exact day in November 2019",
+          "quote": "I only knew it was sometime in November, not the specific date"
+        },
+        {
+          "cue": "time_absolute",
+          "detail": "exact hour\u2011minute",
+          "quote": "I remembered it being \u201clate afternoon/around three\u2011something,\u201d but not the precise hour\u2011minute stamp"
+        },
+        {
+          "cue": "visual_content",
+          "detail": "exact angle of kite",
+          "quote": "I wasn\u2019t sure whether she was holding the kite, the kite was draped over the sofa, or she was looking up at it"
+        }
+      ],
+      "anchors": [
+        "Diwali 2019",
+        "November 2019",
+        "Isha about three\u2011and\u2011a\u2011half years old"
+      ],
+      "first_query": "kite",
+      "later_queries": [
+        "red kite",
+        "Nov 2019 filter",
+        "Isha people filter"
+      ],
+      "query_strategies": [
+        "keyword",
+        "keyword",
+        "date_or_timeline",
+        "person_or_face"
+      ],
+      "formulation": "Start with the concrete object \u2018kite\u2019, then add colour \u2018red kite\u2019, then narrow by month \u2018Nov\u202f2019\u2019, and finally filter by the person \u2018Isha\u2019.",
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "workaround": null,
+      "outcome": "found",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": false,
+      "searches_last_month": 3,
+      "first_search_found": 0,
+      "feeling": "maddening",
+      "product_feedback": "I wish Google Photos could understand a natural phrase like \u201cthe red kite in the living\u2011room after Diwali 2019\u201d without needing multiple keyword and date filters.",
+      "key_quotes": [
+        "I typed \u201ckite\u201d first because that\u2019s the only concrete word that stuck in my head.",
+        "Because I knew it was from the Diwali period, I opened the filter pane and set the month to Nov\u202f2019.",
+        "Honestly, it\u2019s a bit maddening \u2013 I feel that little knot in my stomach when I\u2019m racing the clock for the slideshow and the search just throws me a sea of unrelated pictures."
+      ],
+      "id": "P3",
+      "simulated": true,
+      "quotes_dropped": 3,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "kite",
+        "red kite"
+      ]
+    },
+    {
+      "participant": "P4",
+      "target_moment": "first Holi 2019 photo of Vivaan",
+      "photo_type": "person_or_group",
+      "trigger": "dad asked for a picture for his wall",
+      "deadline": "Sunday night",
+      "remembered": [
+        {
+          "cue": "event_occasion",
+          "detail": "first Holi celebration",
+          "quote": "It was the first Holi when Vivaan was just four."
+        },
+        {
+          "cue": "visual_content",
+          "detail": "red dust, yellow shirt, stick of cotton candy",
+          "quote": "I remembered the red dust, the yellow shirt, and that he was holding a stick of cotton candy like a prize."
+        },
+        {
+          "cue": "people_present",
+          "detail": "Vivaan and family at parents' house",
+          "quote": "We had a small family gathering at our parents\u2019 house."
+        }
+      ],
+      "forgotten": [
+        {
+          "cue": "place",
+          "detail": "exact address of parents\u2019 house",
+          "quote": "The place was my parents\u2019 house in Gurgaon, but I never noted the address or the exact location on the map."
+        }
+      ],
+      "anchors": [
+        "first Holi",
+        "Vivaan was four",
+        "born in 2020"
+      ],
+      "first_query": "Holi 2019",
+      "later_queries": [
+        "Vivaan Holi 2019",
+        "Red 2019"
+      ],
+      "query_strategies": [
+        "keyword",
+        "keyword",
+        "keyword"
+      ],
+      "formulation": "He typed the holiday name plus year, then added his child\u2019s name, and finally switched to the color keyword.",
+      "failure_mode": "UNDERSTANDING",
+      "failure_detail": "Search returned only three generic photos, none matching the memory.",
+      "workaround": "He used the simpler keyword 'Red 2019' and selected the matching image.",
+      "outcome": "found",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": true,
+      "searches_last_month": 5,
+      "first_search_found": 2,
+      "feeling": "annoyed",
+      "product_feedback": null,
+      "key_quotes": [
+        "My dad called asking for a picture of Vivaan's first Holi \u2013 he wants one for his wall.",
+        "I type \u201cHoli 2019\u201d \u2013 my brain\u2019s remembering that year.",
+        "I\u2019ll try a simpler keyword \u2013 \u201cred\u201d \u2013 because Holi is all about red powder.",
+        "It\u2019s annoying, honestly. I\u2019m juggling a meeting, a kid who\u2019s screaming for a snack, and now I can\u2019t find a single photo."
+      ],
+      "id": "P4",
+      "simulated": true,
+      "quotes_dropped": 0,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "Holi 2019",
+        "Vivaan Holi 2019",
+        "Red 2019"
+      ]
+    },
+    {
+      "participant": "P5",
+      "target_moment": "first day at playschool September 2022",
+      "photo_type": "person_or_group",
+      "trigger": "sister asked for a framed photo",
+      "deadline": "next Friday",
+      "remembered": [
+        {
+          "cue": "time_absolute",
+          "detail": "September 2022",
+          "quote": null
+        },
+        {
+          "cue": "visual_content",
+          "detail": "bright blue shirts, stuffed giraffe, white tiles, giraffe poster",
+          "quote": "they were in their bright blue shirts, holding a stuffed giraffe, standing in the school hallway"
+        },
+        {
+          "cue": "people_present",
+          "detail": "Ayaan, Zayan, teacher",
+          "quote": "the teacher was holding a stack of worksheets"
+        },
+        {
+          "cue": "place",
+          "detail": "local playschool in Hyderabad",
+          "quote": "their local playschool in Hyderabad"
+        }
+      ],
+      "forgotten": [
+        {
+          "cue": "place",
+          "detail": "exact school address",
+          "quote": null
+        }
+      ],
+      "anchors": [
+        "around their 4th birthday in 2022",
+        "new playground opened that September"
+      ],
+      "first_query": "playschool 2023",
+      "later_queries": [
+        "first birthday 2021",
+        "Ayaan Zayan 4th birthday 2023",
+        "giraffe play school 2022"
+      ],
+      "query_strategies": [
+        "keyword",
+        "keyword",
+        "natural_language",
+        "natural_language"
+      ],
+      "formulation": "She turned the vague memory of twins in blue shirts at playschool into keyword searches like \u201cplayschool 2023\u201d and later refined by date, face filter and specific objects.",
+      "failure_mode": "EVALUATION",
+      "failure_detail": "Too many similar results and the twins looked identical, so she couldn\u2019t recognize the correct photo.",
+      "workaround": "Manually scrolled through dates, used face filter and date range, then sent the closest\u2011enough photo.",
+      "outcome": "gave_up",
+      "substitute_sent": true,
+      "photo_on_someone_elses_phone": true,
+      "searches_last_month": 5,
+      "first_search_found": 1,
+      "feeling": "frustrated",
+      "product_feedback": "Wants better twin separation and a hint when the photo might be on a family member\u2019s device.",
+      "key_quotes": [
+        "I\u2019ll keep looking tomorrow.",
+        "I don\u2019t know, it\u2019s the only one I found.",
+        "It felt like a mini\u2011panic, honestly."
+      ],
+      "id": "P5",
+      "simulated": true,
+      "quotes_dropped": 2,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "playschool 2023",
+        "first birthday 2021",
+        "Ayaan Zayan 4th birthday 2023",
+        "giraffe play school 2022"
+      ]
+    },
+    {
+      "participant": "P6",
+      "target_moment": "first time Diya smashed a cake at home when she turned three",
+      "photo_type": "person_or_group",
+      "trigger": "wife asked for a photo for a wall\u2011print",
+      "deadline": "by Sunday",
+      "remembered": [
+        {
+          "cue": "time_absolute",
+          "detail": "around Diya\u2019s third birthday, August 2019",
+          "quote": "she was three on August 15, 2019"
+        },
+        {
+          "cue": "place",
+          "detail": "kitchen at home, living\u2011room background",
+          "quote": "the kitchen tiles are visible behind her"
+        },
+        {
+          "cue": "visual_content",
+          "detail": "cake on face, pink frosting, sticky fingers",
+          "quote": "small, round one with pink frosting, and her little fingers are sticky"
+        },
+        {
+          "cue": "people_present",
+          "detail": "Diya, me laughing with phone in hand",
+          "quote": "I was standing in the living\u2011room, laughing, with a phone in hand"
+        }
+      ],
+      "forgotten": [
+        {
+          "cue": "place",
+          "detail": "exact kitchen layout or room number",
+          "quote": "I don\u2019t remember the kitchen layout or the exact room number"
+        }
+      ],
+      "anchors": [
+        "her third birthday",
+        "late summer 2019",
+        "around August"
+      ],
+      "first_query": "Diya birthday 2019",
+      "later_queries": [
+        "Diya cake smash home 2019",
+        "Diya first birthday cake smash",
+        "Diya smash 2019",
+        "Diya cake smash home 2019 kitchen",
+        "Diya cake smash home 2019"
+      ],
+      "query_strategies": [
+        "keyword",
+        "keyword",
+        "keyword",
+        "keyword",
+        "keyword"
+      ],
+      "formulation": "He added name, event, year and home context to turn a vague memory into specific search terms",
+      "failure_mode": "EVALUATION",
+      "failure_detail": "Results existed but were blurry or wrong angle, making it hard to recognize the exact shot",
+      "workaround": "saved the best\u2011looking blurry photo and later checked the album or wife\u2019s phone for a clearer version",
+      "outcome": "found_after_long_search",
+      "substitute_sent": true,
+      "photo_on_someone_elses_phone": true,
+      "searches_last_month": 8,
+      "first_search_found": 2,
+      "feeling": "frustrated",
+      "product_feedback": "liked the face\u2011search suggestion but disliked repeated vague hits and lack of precise filtering",
+      "key_quotes": [
+        "She asked me to find it by Sunday, because she had a little birthday party that weekend",
+        "I\u2019m on the photo that shows Diya in the living\u2011room with a cake on her face",
+        "It was kinda frustrating, honestly. I was stuck scrolling and scrolling",
+        "I\u2019d love if the app could remember the context better\u2014like the kitchen, the cake, the year\u2014and pull it up automatically"
+      ],
+      "id": "P6",
+      "simulated": true,
+      "quotes_dropped": 0,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "Diya birthday 2019",
+        "Diya cake smash home 2019",
+        "Diya first birthday cake smash",
+        "Diya smash 2019",
+        "Diya cake smash home 2019 kitchen",
+        "Diya cake smash home 2019"
+      ]
+    },
+    {
+      "participant": "T1",
+      "target_moment": "Arjun first steps",
+      "photo_type": "person_or_group",
+      "trigger": null,
+      "deadline": null,
+      "remembered": [
+        {
+          "cue": "time_absolute",
+          "detail": "2022-03-12",
+          "quote": null
+        },
+        {
+          "cue": "place",
+          "detail": "living room",
+          "quote": null
+        },
+        {
+          "cue": "people_present",
+          "detail": "Arjun and Amma",
+          "quote": null
+        }
+      ],
+      "forgotten": [],
+      "anchors": [],
+      "first_query": "first steps in-laws week before move",
+      "later_queries": [],
+      "query_strategies": [
+        "natural_language"
+      ],
+      "formulation": "typed a short phrase describing the event",
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "workaround": null,
+      "outcome": "found",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": null,
+      "searches_last_month": null,
+      "first_search_found": null,
+      "feeling": "relieved",
+      "product_feedback": "liked Moment Finder speed, disliked confusing chip labels",
+      "key_quotes": [
+        "Moment Finder, hands\u2011down. I typed one phrase and it popped up instantly\u2014no endless scrolling or extra taps.",
+        "Honestly, the \u201cpeople\u201d and \u201chome\u201d chips felt a bit weird\u2014like the app is watching who\u2019s in my house.",
+        "A \u201csave as milestone\u201d button would be a lifesaver; I could tag that picture once and have it pop up automatically whenever I need a birthday or growth\u2011milestone pic again."
+      ],
+      "id": "T1",
+      "simulated": true,
+      "quotes_dropped": 3,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "first steps in-laws week before move"
+      ]
+    },
+    {
+      "participant": "T2",
+      "target_moment": "first haircut",
+      "photo_type": "person_or_group",
+      "trigger": null,
+      "deadline": null,
+      "remembered": [
+        {
+          "cue": "activity",
+          "detail": "first haircut mother holding him",
+          "quote": "Let me search for that."
+        },
+        {
+          "cue": "people_present",
+          "detail": "Amma",
+          "quote": "Maybe I should filter by who was there."
+        },
+        {
+          "cue": "time_relative",
+          "detail": "newborn age",
+          "quote": "Let's try newborn age."
+        }
+      ],
+      "forgotten": [],
+      "anchors": [
+        "first haircut"
+      ],
+      "first_query": "first haircut mother holding him",
+      "later_queries": [
+        "first haircut"
+      ],
+      "query_strategies": [
+        "keyword",
+        "keyword"
+      ],
+      "formulation": "I typed a descriptive phrase about the haircut and who was there, then tried a simple keyword.",
+      "failure_mode": "REFINEMENT",
+      "failure_detail": "Filters didn\u2019t return the photo and I gave up.",
+      "workaround": null,
+      "outcome": "gave_up",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": null,
+      "searches_last_month": null,
+      "first_search_found": null,
+      "feeling": "frustrated",
+      "product_feedback": "The face\u2011chips felt invasive and the Moment Finder filters were confusing.",
+      "key_quotes": [
+        "Standard search was easier \u2013 I just typed \u201cfirst haircut\u201d and got it in two taps.",
+        "Moment\u202fFinder made me hunt around, filter and even failed to pull the haircut at all.",
+        "Seeing chips that label \u201cmom\u201d, \u201cdad\u201d or \u201chome\u201d felt a bit weird \u2013 like the app is watching who\u2019s in the picture.",
+        "The filters in Moment\u202fFinder are confusing \u2013 they ask \u201cwho was there?\u201d or \u201cnewborn age?\u201d and I\u2019m not sure which to pick."
+      ],
+      "id": "T2",
+      "simulated": true,
+      "quotes_dropped": 0,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "first haircut mother holding him",
+        "first haircut"
+      ]
+    },
+    {
+      "participant": "T3",
+      "target_moment": "first day at daycare",
+      "photo_type": "person_or_group",
+      "trigger": null,
+      "deadline": null,
+      "remembered": [
+        {
+          "cue": "event_occasion",
+          "detail": "first day at daycare with rain",
+          "quote": "Moment Finder was definitely easier \u2013 I just typed \u201cfirst steps\u201d and it popped up right away."
+        },
+        {
+          "cue": "visual_content",
+          "detail": "umbrella in the rain at the gate",
+          "quote": null
+        },
+        {
+          "cue": "emotion_feeling",
+          "detail": "feeling of juggling a toddler and a deadline",
+          "quote": "huge when I\u2019m juggling a toddler and a deadline"
+        }
+      ],
+      "forgotten": [],
+      "anchors": [
+        "before we moved",
+        "her age"
+      ],
+      "first_query": "first day at daycare rain gate",
+      "later_queries": [
+        "first day daycare gate rain",
+        "first steps",
+        "Amma",
+        "first steps 2023-03"
+      ],
+      "query_strategies": [
+        "keyword",
+        "keyword",
+        "keyword",
+        "keyword",
+        "keyword"
+      ],
+      "formulation": "typed a simple phrase describing the event and let the AI match the photo",
+      "failure_mode": "NONE",
+      "failure_detail": "null",
+      "workaround": null,
+      "outcome": "found",
+      "substitute_sent": false,
+      "photo_on_someone_elses_phone": false,
+      "searches_last_month": null,
+      "first_search_found": 1,
+      "feeling": "confident",
+      "product_feedback": "liked instant results, disliked automatic people/home chips and lack of privacy info",
+      "key_quotes": [
+        "Moment Finder was definitely easier \u2013 I just typed \u201cfirst steps\u201d and it popped up right away.",
+        "I\u2019d give it a 4. It saved me the hassle of fiddling with weird keyword combos and got the right picture instantly.",
+        "Honestly, the idea of the app pulling out \u201cpeople\u201d or \u201chome\u201d chips makes me a bit uneasy.",
+        "Having a \u201csave as milestone\u201d button would be handy; I could tag that first\u2011step video once and then pull it up instantly."
+      ],
+      "id": "T3",
+      "simulated": true,
+      "quotes_dropped": 1,
+      "model": "openai/gpt-oss-120b",
+      "queries_verified": [
+        "first day at daycare rain gate",
+        "first day daycare gate rain",
+        "first steps",
+        "Amma",
+        "first steps 2023-03"
+      ]
+    }
+  ],
+  "aggregate": {
+    "n": 9,
+    "simulated": 9,
+    "photo_types": [
+      [
+        "person_or_group",
+        9
+      ]
+    ],
+    "remembered": [
+      [
+        "visual_content",
+        7
+      ],
+      [
+        "people_present",
+        7
+      ],
+      [
+        "time_absolute",
+        5
+      ],
+      [
+        "place",
+        5
+      ],
+      [
+        "event_occasion",
+        3
+      ],
+      [
+        "emotion_feeling",
+        3
+      ],
+      [
+        "time_relative",
+        2
+      ],
+      [
+        "activity",
+        1
+      ]
+    ],
+    "forgotten": [
+      [
+        "place",
+        4
+      ],
+      [
+        "time_absolute",
+        2
+      ],
+      [
+        "time_relative",
+        1
+      ],
+      [
+        "visual_content",
+        1
+      ]
+    ],
+    "strategies_any": [
+      [
+        "keyword",
+        8
+      ],
+      [
+        "date_or_timeline",
+        3
+      ],
+      [
+        "person_or_face",
+        2
+      ],
+      [
+        "natural_language",
+        2
+      ],
+      [
+        "place_or_map",
+        1
+      ]
+    ],
+    "strategies_first": [
+      [
+        "keyword",
+        8
+      ],
+      [
+        "natural_language",
+        1
+      ]
+    ],
+    "failure_modes": [
+      [
+        "EVALUATION",
+        3
+      ],
+      [
+        "NONE",
+        3
+      ],
+      [
+        "REFINEMENT",
+        2
+      ],
+      [
+        "UNDERSTANDING",
+        1
+      ]
+    ],
+    "outcomes": [
+      [
+        "found",
+        6
+      ],
+      [
+        "gave_up",
+        2
+      ],
+      [
+        "found_after_long_search",
+        1
+      ]
+    ],
+    "substitute_sent": 2,
+    "someone_elses_phone": 4,
+    "first_queries": [
+      [
+        "P1",
+        "Anaya park 2019"
+      ],
+      [
+        "P2",
+        "Kabir cake 2022"
+      ],
+      [
+        "P3",
+        "kite"
+      ],
+      [
+        "P4",
+        "Holi 2019"
+      ],
+      [
+        "P5",
+        "playschool 2023"
+      ],
+      [
+        "P6",
+        "Diya birthday 2019"
+      ],
+      [
+        "T1",
+        "first steps in-laws week before move"
+      ],
+      [
+        "T2",
+        "first haircut mother holding him"
+      ],
+      [
+        "T3",
+        "first day at daycare rain gate"
+      ]
+    ],
+    "quotes_dropped": 11
+  },
+  "triangulation": {
+    "app reviews (parents)": [
+      {
+        "dimension": "Remembered",
+        "item": "visual_content",
+        "interviews_pct": 78,
+        "app reviews (parents)_pct": 29,
+        "public_n": 7,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "people_present",
+        "interviews_pct": 78,
+        "app reviews (parents)_pct": 86,
+        "public_n": 7,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "time_absolute",
+        "interviews_pct": 56,
+        "app reviews (parents)_pct": 0,
+        "public_n": 7,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "time_relative",
+        "interviews_pct": 22,
+        "app reviews (parents)_pct": 29,
+        "public_n": 7,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "place",
+        "interviews_pct": 44,
+        "app reviews (parents)_pct": 71,
+        "public_n": 7,
+        "verdict": "public higher"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "time_absolute",
+        "interviews_pct": 22,
+        "app reviews (parents)_pct": 43,
+        "public_n": 7,
+        "verdict": "public higher"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "time_relative",
+        "interviews_pct": 11,
+        "app reviews (parents)_pct": 29,
+        "public_n": 7,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "visual_content",
+        "interviews_pct": 11,
+        "app reviews (parents)_pct": 43,
+        "public_n": 7,
+        "verdict": "public higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "keyword",
+        "interviews_pct": 89,
+        "app reviews (parents)_pct": 29,
+        "public_n": 7,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "date_or_timeline",
+        "interviews_pct": 33,
+        "app reviews (parents)_pct": 0,
+        "public_n": 7,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "person_or_face",
+        "interviews_pct": 22,
+        "app reviews (parents)_pct": 29,
+        "public_n": 7,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "natural_language",
+        "interviews_pct": 22,
+        "app reviews (parents)_pct": 57,
+        "public_n": 7,
+        "verdict": "public higher"
+      }
+    ],
+    "app reviews (all)": [
+      {
+        "dimension": "Remembered",
+        "item": "visual_content",
+        "interviews_pct": 78,
+        "app reviews (all)_pct": 0,
+        "public_n": 5,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "people_present",
+        "interviews_pct": 78,
+        "app reviews (all)_pct": 60,
+        "public_n": 5,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "time_absolute",
+        "interviews_pct": 56,
+        "app reviews (all)_pct": 0,
+        "public_n": 5,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "emotion_feeling",
+        "interviews_pct": 33,
+        "app reviews (all)_pct": 20,
+        "public_n": 5,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "place",
+        "interviews_pct": 56,
+        "app reviews (all)_pct": 20,
+        "public_n": 5,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "place",
+        "interviews_pct": 44,
+        "app reviews (all)_pct": 40,
+        "public_n": 5,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "time_absolute",
+        "interviews_pct": 22,
+        "app reviews (all)_pct": 40,
+        "public_n": 5,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "time_relative",
+        "interviews_pct": 11,
+        "app reviews (all)_pct": 40,
+        "public_n": 5,
+        "verdict": "public higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "keyword",
+        "interviews_pct": 89,
+        "app reviews (all)_pct": 40,
+        "public_n": 5,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "date_or_timeline",
+        "interviews_pct": 33,
+        "app reviews (all)_pct": 0,
+        "public_n": 5,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "person_or_face",
+        "interviews_pct": 22,
+        "app reviews (all)_pct": 40,
+        "public_n": 5,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "gave_up",
+        "interviews_pct": 0,
+        "app reviews (all)_pct": 20,
+        "public_n": 5,
+        "verdict": "agree"
+      }
+    ],
+    "public forums": [
+      {
+        "dimension": "Remembered",
+        "item": "visual_content",
+        "interviews_pct": 78,
+        "public forums_pct": 8,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "people_present",
+        "interviews_pct": 78,
+        "public forums_pct": 50,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "time_absolute",
+        "interviews_pct": 56,
+        "public forums_pct": 25,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Remembered",
+        "item": "time_relative",
+        "interviews_pct": 22,
+        "public forums_pct": 17,
+        "public_n": 12,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "place",
+        "interviews_pct": 44,
+        "public forums_pct": 0,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "time_absolute",
+        "interviews_pct": 22,
+        "public forums_pct": 0,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "time_relative",
+        "interviews_pct": 11,
+        "public forums_pct": 0,
+        "public_n": 12,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Forgotten",
+        "item": "visual_content",
+        "interviews_pct": 11,
+        "public forums_pct": 8,
+        "public_n": 12,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "keyword",
+        "interviews_pct": 89,
+        "public forums_pct": 67,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "date_or_timeline",
+        "interviews_pct": 33,
+        "public forums_pct": 0,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "person_or_face",
+        "interviews_pct": 22,
+        "public forums_pct": 0,
+        "public_n": 12,
+        "verdict": "interviews higher"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "natural_language",
+        "interviews_pct": 22,
+        "public forums_pct": 8,
+        "public_n": 12,
+        "verdict": "agree"
+      },
+      {
+        "dimension": "Search strategy",
+        "item": "unknown",
+        "interviews_pct": 0,
+        "public forums_pct": 8,
+        "public_n": 12,
+        "verdict": "agree"
+      }
+    ]
+  },
+  "answers": {
+    "answers": [
+      {
+        "answer": "Users struggle most with retrieving photos of milestone moments such as a child\u2019s firsts (first steps, first haircut, first birthday cake smash) and culturally specific occasions (first Holi, Diwali kite play). The difficulty stems from sparse or ambiguous metadata\u2014keywords like \"first\" or \"Holi\" are too generic, and the app\u2019s face\u2011recognition or location filters often mislabel or miss the target image, forcing users to scroll endlessly.",
+        "evidence": [
+          "[P1] \"I typed \u201cAnaya\u202fpark\u202f2019\u201d because the only concrete bits I could pull together were her name, the park we went to and the year I was pretty sure of.\"",
+          "[P1] \"When the \u201cAnaya\u202fpark\u202f2019\u201d search just gave me a bunch of generic swing\u2011and\u2011slide shots, I thought the AI wasn\u2019t picking up the kite because it wasn\u2019t in the metadata.\"",
+          "[P1] \"I tapped the Location filter, typed \u201cCubbon\u202fPark\u201d, and hit Apply. That narrowed the set to about 12 pictures, and finally one of them showed the red kite stuck in the low tree with Anaya\u2019s hand on the string.\"",
+          "[P2] \"The app still shows the label \u201cunknown\u201d, which is annoying, but the face is clearly his, not my nephew\u2019s.\"",
+          "[P3] \"Because I knew it was from the Diwali period, I opened the filter pane and set the month to Nov\u202f2019.\"",
+          "[P3] \"Honestly, it\u2019s a bit maddening \u2013 I feel that little knot in my stomach when I\u2019m racing the clock for the slideshow and the search just throws me a sea of unrelated pictures.\""
+        ],
+        "public_feedback": "mixed \u2013 some public posts echo the difficulty with generic keywords, while others note that the app sometimes mislabels or omits key images",
+        "confidence": "medium",
+        "evidence_dropped": 5,
+        "id": "Q1"
+      },
+      {
+        "answer": "People most reliably recall the visual details of a photo\u2014such as a bright red kite or a frosting\u2011covered face\u2014alongside who was present and where the moment took place.  Time\u2011specific cues (exact dates or relative events like \u201cDiwali 2019\u201d) are remembered less often, and only a few participants recall the broader occasion or emotional tone.  Overall, the interview data show that visual content and people are the strongest memory anchors, while time and emotion are weaker.",
+        "evidence": [
+          "[P1] \"I just remembered it was that park day in early\u202f2019 \u2013 we were at Cubbon\u202fPark and Anaya grabbed a red kite\"",
+          "[P2] \"the date stamp says 15\u202fFeb\u202f2022\"",
+          "[P3] \"the red kite was the standout object in the memory\"",
+          "[P4] \"I remembered the red dust, the yellow shirt, and that he was holding a stick of cotton candy like a prize.\"",
+          "[P5] \"they were in their bright blue shirts, holding a stuffed giraffe, standing in the school hallway\"",
+          "[P6] \"she was three on August\u202f15,\u202f2019\""
+        ],
+        "public_feedback": "mixed \u2013 public forums and app reviews show lower recall of visual content and people compared to interviews, but agree on the relative importance of time cues.",
+        "confidence": "medium",
+        "evidence_dropped": 0,
+        "id": "Q2"
+      },
+      {
+        "answer": "The participants most often forgot the exact place of the event (4 of 9), followed by the exact date (2 of 9). They also missed the month (1 of 9) and the visual angle of the kite (1 of 9).",
+        "evidence": [
+          "[P2] \"I think it was ours, but I\u2019m not 100\u202f% on that\"",
+          "[P4] \"The place was my parents\u2019 house in Gurgaon, but I never noted the address or the exact location on the map.\"",
+          "[P1] \"I had no clue which day it was \u2013 I just knew it was sometime in the first half of the year\"",
+          "[P3] \"I only knew it was sometime in November, not the specific date\"",
+          "[P3] \"I wasn\u2019t sure whether she was holding the kite, the kite was draped over the sofa, or she was looking up at it\""
+        ],
+        "public_feedback": "mixed \u2013 some dimensions (place, time_absolute, visual_content) show higher recall in public reviews, while time_relative is consistent across sources",
+        "confidence": "medium",
+        "evidence_dropped": 2,
+        "id": "Q3"
+      },
+      {
+        "answer": "When memory is fragmentary, users first translate remembered pieces into keyword searches, then refine with dates, locations, or people. For example, P1 combined a name, place and year into \"Anaya park 2019\", P3 started with the object \"kite\" and added colour and date to get \"red kite\" and \"Nov 2019\", and P5 turned a vague scene into \"playschool 2023\" and later \"giraffe play school 2022\". These queries show a step\u2011wise build from fragments to precise terms.",
+        "evidence": [
+          "[P1] \"Anaya park 2019\"",
+          "[P1, P3] \"kite\"",
+          "[P1, P3] \"red kite\"",
+          "[P5] \"playschool 2023\"",
+          "[P5] \"giraffe play school 2022\""
+        ],
+        "public_feedback": "mixed \u2013 interviewers use keyword strategies more often than public posts, but natural\u2011language queries are more common in public feedback.",
+        "confidence": "medium",
+        "evidence_dropped": 0,
+        "id": "Q4"
+      },
+      {
+        "answer": "The search fails most often when the system\u2019s evaluation of the query does not match the user\u2019s mental model\u2014three participants (P1, P5, P6) reported that the app returned many irrelevant or blurry results, forcing them to scroll or abandon the search. One participant (P4) experienced an understanding mismatch, where the app\u2019s generic results did not align with the memory of a specific event. When the search fails, users either refine the query with additional filters (P1, P2), manually scroll through results (P5, P6), or give up and send a substitute photo (P5, P6).",
+        "evidence": [
+          "[P5] \"I\u2019ll keep looking tomorrow. I don\u2019t know, it\u2019s the only one I found. It felt like a mini\u2011panic, honestly.\"",
+          "[P6] \"It was kinda frustrating, honestly. I was stuck scrolling and scrolling\""
+        ],
+        "public_feedback": "differs \u2013 public posts report a much higher share of UNDERSTANDING failures (\u224860%) than our sample (\u224811%).",
+        "confidence": "medium",
+        "evidence_dropped": 1,
+        "id": "Q5"
+      }
+    ],
+    "surprises": [
+      "Users struggle most with retrieving milestone photos despite having strong visual memory anchors",
+      "The app\u2019s face\u2011recognition and location filters often mislabel or omit target images, contradicting users\u2019 expectation of accurate metadata",
+      "Public feedback shows higher rates of understanding failures than the interview sample, indicating a discrepancy between real\u2011world usage and controlled studies"
+    ],
+    "open_questions": [
+      "How do users prioritize visual versus contextual cues when forming search queries in real\u2011world settings?",
+      "What specific metadata (e.g., color, angle, event type) most effectively disambiguates ambiguous keywords like \"first\" or \"kite\"?",
+      "How can the search system better align its evaluation of queries with users\u2019 mental models to reduce irrelevant or blurry results?"
+    ]
+  }
+}

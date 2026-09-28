@@ -1,0 +1,187 @@
+{
+  "total_items": 36,
+  "retrieval_related": 12,
+  "retrieval_share_pct": 33.3,
+  "photo_types_top": [
+    [
+      "unknown",
+      7
+    ],
+    [
+      "person_or_group",
+      3
+    ],
+    [
+      "other",
+      2
+    ]
+  ],
+  "remembered_cues_top": [
+    [
+      "people_present",
+      6
+    ],
+    [
+      "time_absolute",
+      3
+    ],
+    [
+      "time_relative",
+      2
+    ],
+    [
+      "place",
+      2
+    ],
+    [
+      "event_occasion",
+      1
+    ],
+    [
+      "activity",
+      1
+    ],
+    [
+      "visual_content",
+      1
+    ]
+  ],
+  "forgotten_cues_top": [
+    [
+      "visual_content",
+      1
+    ]
+  ],
+  "query_strategies_top": [
+    [
+      "keyword",
+      8
+    ],
+    [
+      "natural_language",
+      1
+    ],
+    [
+      "unknown",
+      1
+    ]
+  ],
+  "query_examples": [
+    "Apple photos",
+    "\"dog with black hair\"",
+    "photo frames",
+    "Delete all shared partner photos",
+    "\"iphone see only pictures taken by this phone\""
+  ],
+  "opportunities_ranked": [
+    {
+      "failure_mode": "UNDERSTANDING",
+      "count": 6,
+      "share_pct": 50.0,
+      "avg_severity": 2.67,
+      "opportunity_score": 16.0,
+      "top_photo_types": [
+        [
+          "unknown",
+          3
+        ],
+        [
+          "person_or_group",
+          2
+        ],
+        [
+          "other",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "If I enter \"dog with black hair\" it says no results, even though I pictures of black labs.",
+          "source": "hackernews/comment"
+        },
+        {
+          "quote": "I would like to search Google photos images by their filename but I have a problem when two photos were taken at the same time and therefore their filenames and pretty similar",
+          "source": "stackexchange/webapps"
+        },
+        {
+          "quote": "There's no readily apparent way to search for images that have regular tags but don't have face tags.",
+          "source": "stackexchange/photo"
+        },
+        {
+          "quote": "Delete (or at least find) all shared partner photos in Google Photos.",
+          "source": "stackexchange/webapps"
+        },
+        {
+          "quote": "How can I find pictures in Google Photos in which multiple people that I specify appear together?",
+          "source": "stackexchange/webapps"
+        }
+      ]
+    },
+    {
+      "failure_mode": "EXPRESSION",
+      "count": 3,
+      "share_pct": 25.0,
+      "avg_severity": 3.0,
+      "opportunity_score": 9.0,
+      "top_photo_types": [
+        [
+          "unknown",
+          2
+        ],
+        [
+          "person_or_group",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "Alas, Google Photos search is based on Date and it's version of a visual search, but not keywords where I've spent years cataloging my pictures for search.",
+          "source": "hackernews/comment"
+        },
+        {
+          "quote": "I personally find Google Photos usually helpful and use it all the time to locate specific pictures. I do not caption them at all",
+          "source": "hackernews/comment"
+        },
+        {
+          "quote": "What is the \"box with faces\"? The closest thing I see is \"Sharing\" which has two non-descript heads, which I assume is not what this is talking about.",
+          "source": "stackexchange/webapps"
+        }
+      ]
+    },
+    {
+      "failure_mode": "REFINEMENT",
+      "count": 1,
+      "share_pct": 8.3,
+      "avg_severity": 3.0,
+      "opportunity_score": 3.0,
+      "top_photo_types": [
+        [
+          "other",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "quote": "Finding a years-old photo to upload is TERRIBLE.",
+          "source": "hackernews/comment"
+        }
+      ]
+    }
+  ],
+  "collected_items": 1744,
+  "forum_collected": {
+    "hackernews": 783,
+    "stackexchange": 927,
+    "gphotos_community": 34
+  },
+  "forum_on_topic": {
+    "hackernews": 192,
+    "stackexchange": 173,
+    "gphotos_community": 1
+  },
+  "notes": [
+    "Google Photos Community: the public listing shows only the ~34 latest threads; 11 are about recovering lost/deleted photos, 1 passed the find-a-photo filter (about AI creations, not retrieval), so none were classified. Community search is disallowed by robots.txt.",
+    "Classified: the 18 most on-topic posts each from HN and Stack Exchange (free Groq budget), on openai/gpt-oss-20b.",
+    "Reddit (needs API creds), YouTube (needs API key) and social media (needs login) not collected."
+  ]
+}

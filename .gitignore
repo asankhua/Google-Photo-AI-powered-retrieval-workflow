@@ -1,0 +1,20 @@
+# secrets: never commit (Streamlit Cloud uses st.secrets)
+.env
+.streamlit/secrets.toml
+
+# python / OS
+__pycache__/
+*.pyc
+.DS_Store
+
+# raw store reviews (22 MB); the app only needs discovery_engine/data/corpus.json
+discovery_engine/data/store_all.json
+
+# case-study documents and deck are kept out of the code repo
+/0*.md
+/TODO.md
+/problemStatement*
+/deck/
+/03_user_research/*
+!/03_user_research/synthetic_interviews/
+/06_simulated_tests/results.json
